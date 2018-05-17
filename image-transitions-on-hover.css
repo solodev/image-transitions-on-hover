@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-hero .col {
+	width: 50%;
+	height: 600px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer
+}
+@media (max-width:1199px) and (min-width:992px) {
+	.main-hero .col {
+		height: 450px
+	}
+}
+@media (max-width:991px) {
+	.main-hero .col {
+		width: 100%;
+		height: 530px
+	}
+}
+@media (max-width:767px) {
+	.main-hero .col {
+		height: 300px
+	}
+}
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none) {
+	.main-hero .col {
+		margin-right: -1px
+	}
+}
+.main-hero .col:hover .col-bg {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+.main-hero .col .col-bar {
+	width: 100%;
+	height: 270px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 2
+}
+@media (max-width:767px) {
+	.main-hero .col .col-bar {
+		height: 50%
+	}
+}
+.main-hero .col .col-wrapper {
+	width: 585px;
+	height: 100%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+@media (min-width:1200px) {
+	.main-hero .col .col-wrapper {
+		width: 540px
+	}
+}
+@media (max-width:1199px) {
+	.main-hero .col .col-wrapper {
+		width: 100%
+	}
+}
+.main-hero .col h1 {
+	color: #fff;
+	font-size: 4.2rem;
+	font-weight: 300;
+	margin: 0 0 15px 0;
+	letter-spacing: -1px
+}
+@media (max-width:1199px) and (min-width:992px) {
+	.main-hero .col h1 {
+		font-size: 3.2rem
+	}
+}
+@media (max-width:767px) {
+	.main-hero .col h1 {
+		font-size: 2.8rem
+	}
+}
+.main-hero .col h1 span {
+	font-weight: 700
+}
+.main-hero .col p {
+	color: #fff;
+	font-size: 1.6rem!important;
+	font-weight: 300!important;
+	margin: 0 0 30px 0
+}
+@media (max-width:767px) {
+	.main-hero .col p {
+		font-size: 1.2rem;
+		padding: 0 15px;
+		margin-bottom: 15px
+	}
+}
+.main-hero .col .btn.btn-gold {
+	font-size: 1.6rem!important;
+	text-transform: uppercase;
+	min-width: 239px!important;
+	margin-bottom: 15px
+}
+@media (max-width:767px) {
+	.main-hero .col .btn.btn-gold {
+		min-width: 100px;
+		height: 36px;
+		line-height: 34px;
+		font-size: 1.4rem;
+		padding: 0 15px;
+		margin-bottom: 0
+	}
+}
+.main-hero .col-1 .col-bg, .main-hero .col-2 .col-bg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: 1s all ease;
+	z-index: 1
+}
+.main-hero .col-1 .col-bg {
+	background: url(https://raw.githubusercontent.com/solodev/image-transitions-on-hover/master/image-1.jpg) no-repeat top right;
+	background-size: cover
+}
+.main-hero .col-1 .col-bar {
+	background: rgba(0, 0, 0, .55)
+}
+@media (min-width:1435px) {
+	.main-hero .col-1 .col-wrapper {
+		margin-right: 150px
+	}
+}
+@media (max-width:1434px) and (min-width:1351px) {
+	.main-hero .col-1 .col-wrapper {
+		margin-right: 80px
+	}
+}
+@media (max-width:1350px) {
+	.main-hero .col-1 .col-wrapper {
+		float: none!important;
+		margin-left: auto;
+		margin-right: auto
+	}
+}
+.main-hero .col-2 .col-bg {
+	background: url(https://raw.githubusercontent.com/solodev/image-transitions-on-hover/master/image-2.jpg) no-repeat top right;
+	background-size: cover
+}
+.main-hero .col-2 .col-bar {
+	background: rgba(19, 32, 131, .55)
+}
+@media (min-width:1351px) {
+	.main-hero .col-2 .col-wrapper {
+		margin-left: 100px
+	}
+}
+@media (max-width:1350px) {
+	.main-hero .col-2 .col-wrapper {
+		margin-left: auto;
+		margin-right: auto
+	}
+}
+.btn-gold {
+    min-width: 206px;
+    border-radius: 27px!important;
+    background: #fed141!important;
+    border-color: #fed141!important;
+    color: #233199!important;
+}
+.btn-gold:hover {
+    color: #fed141!important;
+    background: #233199!important;
+    border-color: #233199!important;
+}
