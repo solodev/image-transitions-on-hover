@@ -1,4 +1,5 @@
 # image-transitions-on-hover
+Your website's images play a massive role in the overall design, look, and branding feel of your website. However, they can do more than that. They can even be a UX resource, streamline navigation, and encourage users to engage with certain website elements over others. 
 
 ## Tutorial		  
 For detailed instruction's, view Solodev's [How to Use CSS to Create Image Transitions on Hover](https://www.solodev.com/blog/how-to-use-css-to-create-image-transitions-on-hover.stml) article.
